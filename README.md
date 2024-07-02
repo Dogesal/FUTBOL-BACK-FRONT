@@ -9,6 +9,8 @@ Para iniciar el frontend, sigue estos pasos:
    npm install
    npm start
 
+## Backend
+
 2. **Configuracion de credenciales:**
    ```
    spring.datasource.url=jdbc:mysql://localhost:3306/futbol
