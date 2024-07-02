@@ -10,7 +10,8 @@ Para iniciar el frontend, sigue estos pasos:
    npm start
 
 ## Backend
-
+   LAS TABLAS SE GENERAN AL INICIAR EL API PERO DEBERA CREAR ANTES LA BASE DE DATOS futbol 
+   
 1. **Configuracion de credenciales:**
    ```
    spring.datasource.url=jdbc:mysql://localhost:3306/futbol
@@ -18,7 +19,7 @@ Para iniciar el frontend, sigue estos pasos:
    spring.datasource.password=contraseña
 
 2. **Datos de ejemplo:**
-  
+     Con este script creara ejemplos de datos de posiciones y jugadores
    -- Insertar posiciones
    ```
       INSERT INTO posicion (nombre) VALUES
