@@ -14,6 +14,8 @@ Para iniciar el frontend, sigue estos pasos:
    
 1. **Configuracion de credenciales:**
    ```
+   ESTA CONFIGRACION ESTA EN EL ARCHIVO src/main/resources/application.properties
+   
    spring.datasource.url=jdbc:mysql://localhost:3306/futbol
    spring.datasource.username=usuario
    spring.datasource.password=contraseña
